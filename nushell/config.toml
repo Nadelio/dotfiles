@@ -1,0 +1,4 @@
+[keybindings]
+[[keybindings.insert]]
+key = "Tab"
+action = "complete"
