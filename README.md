@@ -1,7 +1,7 @@
 # Dotfiles
 
-![nushell screenshot](media\screenshot_nu.png)
-![nvim screenshot](media\screenshot_nvim.png)
+![nushell screenshot](media/screenshot_nu.png)
+![nvim screenshot](media/screenshot_nvim.png)
 
 A simple and clean config for Linux users with a heavy lean on cyberpunk-esc colors and NieR: Automata theming
 
