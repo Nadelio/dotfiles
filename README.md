@@ -17,7 +17,7 @@ Various dependencies:
 - Rust (various)
 - GCC compiler (nvim-treesitter)
 - Lua (bundled with nvim, but also is relied on by certain nvim plugins)
-- CodeNewRoman Nerd Font Regular (font, used by 90% of the terminal as the NerdFont)
+- Fira Code Mono (font, used by 90% of the terminal as the NerdFont)
 
 # Setup
 - Download Wezterm
