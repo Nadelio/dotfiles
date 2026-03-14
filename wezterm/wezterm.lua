@@ -7,16 +7,18 @@ config.initial_cols = 120
 config.initial_rows = 28
 
 -- background
-config.window_background_image = '.\\media\\2b_sword_flowers.png'
-config.window_background_opacity = 0.75
+config.window_background_image = 'C:\\Users\\SENGa\\.config\\media\\2b_sword_flowers.png'
+config.window_background_opacity = 1.0 
 
 -- font and color scheme
-config.font = wezterm.font("CodeNewRoman Nerd Font", {weight="Regular", stretch="Normal", style="Normal"}) -- ~\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\CODENEWROMANNERDFONT-REGULAR.OTF, DirectWrite
+config.harfbuzz_features = { 'calt=1', 'clig=1', 'liga=1' }
+config.font = wezterm.font("Fira Code", {weight="Regular", stretch="Normal", style="Normal"})
+--config.font = wezterm.font("CodeNewRoman Nerd Font", {weight="Regular", stretch="Normal", style="Normal"}) -- ~\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\CODENEWROMANNERDFONT-REGULAR.OTF, DirectWrite
 config.font_size = 11
-config.color_scheme = 'CyberDyne'
+config.color_scheme = 'CyberDyne' -- default colorscheme
 
 -- default shell -- comment out to use system shell (cmd prompt or bash typically)
-config.default_prog = { '~\\AppData\\Local\\Programs\\nu\\bin\\nu.exe' }
+config.default_prog = { 'C:\\Users\\SENGa\\AppData\\Local\\Programs\\nu\\bin\\nu.exe' }
 
 -- custom keybinds
 config.keys = {
